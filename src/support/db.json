@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Lyli",
+      "password": "rahasia",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "Dobleh",
+      "password": "maungapain",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "username": "Budi",
+      "password": "rahasia",
+      "role": "user"
+    },
+    {
+      "username": "Ja",
+      "password": "12",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Winter Coats",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Qr02HLJDL._AC_UX342_.jpg",
+      "stock": 100,
+      "categoryId": 2,
+      "cost": 12000,
+      "description": "Winter Coats made by famous designer from Italy",
+      "id": 1
+    },
+    {
+      "name": "Black Midi Skirt",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hvyj1B2DL._AC_UX385_.jpgDragon-Egg-Candles-Set-of-3-Perfect-for.jpg",
+      "stock": 10,
+      "categoryId": 4,
+      "cost": 70000,
+      "description": "Midi Skirt",
+      "id": 2
+    },
+    {
+      "name": "Basic Crop Tee",
+      "image": "https://i.pinimg.com/originals/f0/fa/14/f0fa14049fa1c12643b52e5b3f9a91cd.jpg",
+      "stock": 15,
+      "categoryId": 1,
+      "cost": 12,
+      "description": "100% Cotton Crop Tee",
+      "id": 3
+    },
+    {
+      "name": "Classic Jumpsuit",
+      "image": "https://www.verycherryshop.com/wp-content/uploads//2019/03/wconn-11463.jpg",
+      "stock": 12,
+      "categoryId": 1,
+      "cost": 12000,
+      "description": "Sexy classic jumpsuit",
+      "id": 4
+    },
+    {
+      "name": "Man Vest",
+      "image": "https://eu.patagonia.com/dis/dw/image/v2/ABBM_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw5e159334/images/hi-res/25882_STH.jpg?sw=750&sh=750&sm=fit&sfrm=png",
+      "stock": 12,
+      "categoryId": 2,
+      "cost": 125000,
+      "description": "Warm vest",
+      "id": 5
+    },
+    {
+      "name": "Shorts",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/613kVZyq75L._AC_UX679_.jpg",
+      "stock": 23,
+      "categoryId": 3,
+      "cost": 143000,
+      "description": "Rubber shorts",
+      "id": 6
+    },
+    {
+      "name": "Printed Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEZdA8V-l3ETjOBT7zDmqHiilhWjEZThfImIFJQVJXNHxu93gP",
+      "stock": 25,
+      "categoryId": 1,
+      "cost": 45000,
+      "description": "line printed shirts",
+      "id": 7
+    },
+    {
+      "name": "Baju Kodok",
+      "image": "https://img.my-best.id/press_component_item_part_images/2019_02_a-31.jpg?ixlib=rails-3.0.2&auto=compress&q=70&lossless=0&w=640&h=640&fit=clip",
+      "stock": 24,
+      "categoryId": 2,
+      "cost": 25000,
+      "description": "Baju Kodok untuk remaja perempuan",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tops"
+    },
+    {
+      "id": 2,
+      "name": "Outers"
+    },
+    {
+      "id": 3,
+      "name": "Pants"
+    },
+    {
+      "id": 4,
+      "name": "Skirts"
+    },
+    {
+      "id": 5,
+      "name": "Bottoms"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 4,
+      "id": 1
+    },
+    {
+      "status": "oncart",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "transactionId": 1,
+      "productId": 5,
+      "qty": 5,
+      "id": 4
+    },
+    {
+      "transactionId": 2,
+      "productId": 3,
+      "qty": 11,
+      "id": 11
+    },
+    {
+      "transactionId": 2,
+      "productId": 2,
+      "qty": 6,
+      "id": 12
+    }
+  ]
+}
